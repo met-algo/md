@@ -98,7 +98,8 @@ body {
 
 button {
   margin-left: 25%;
-	text-align: center;
+  margin-bottom: 50px;
+  text-align: center;
 	text-decoration: none;
 	user-select: none;
 	font-size: 50px;
