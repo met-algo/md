@@ -66,7 +66,7 @@ a {
 
 h1 {
   font-family: sans-serif bold;
-  color: #37123C;
+  color: #662E9B;
   text-align: center;
   font-size: 50px;
 }
@@ -76,7 +76,7 @@ h2 {
   margin-top: 1%;
   margin-bottom: 1%;
   font-family: sans-serif bold;
-  color: #37123C;
+  color: #CC92C2;
   font-size: 40px;
 }
 
@@ -99,9 +99,9 @@ summary {
 }
 
 body {
-  color: black;
+  color: #080705;
   align-items: left;
-  background-color: lightgray;
+  background-color: #CDE6F5;
 }
 
 table {
@@ -110,17 +110,14 @@ table {
   margin: 5px;
 }
 
-div.btn.pos {
-  height: 10em;
-  display: flex;
-  align-items: center;
-  justify-content: center
-}
-
 td {
   word-wrap:break-word;
   text-align: center;
   padding: 5px;
+}
+
+.btn-height{
+  height: 25vh;
 }
 
 .txt {
