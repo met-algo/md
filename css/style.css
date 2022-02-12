@@ -200,3 +200,7 @@ td {
   margin: 10px;
   margin-left: 30%;
 }
+
+details {
+  line-height: 2;
+}
