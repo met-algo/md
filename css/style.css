@@ -149,6 +149,81 @@ h1 {
   text-align: center;
   font-size: 50px;
 }
+/* Начало экрана приветствия */
+section#intro-header {
+  background-image: url(https://cdn.pixabay.com/photo/2017/06/17/10/55/hot-air-balloon-2411851_960_720.jpg);
+  background-size: cover;
+  padding-top: 33vh;
+  padding-bottom: 33vh;
+  font-family: "montserrat";
+}
+
+section#intro-header .wrap-headline{
+  position: relative;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  background-color: rgba(red, green, blue, alpha);
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+section#intro-header h1,
+section#intro-header h2{
+  
+  font-family: sans-serif bold;
+  color: #fff;
+  font-size: 60px;
+}
+
+section#intro-header h2 {
+  background-color: rgba(2, 2, 2, 0.2);
+  border-radius: 20px;
+  padding-bottom:20px;
+  font-family: sans-serif;
+  color: #CCCCCC;
+  font-size: 25px;
+  margin-left: 0%;
+}
+
+section#intro-header .btn-inst {
+  position: relative;
+  top: 50px;
+  border-radius: 10px;
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  padding: 15px;
+  font-size: 20px;
+}
+section#intro-header .btn-inst:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+section#intro-header .arrow{
+  width: 100px;
+  position: absolute;
+  bottom: 30px;
+  left: calc(50% - 50px);
+  animation: arrowDown 2s infinite;;
+}
+
+@keyframes arrowDown{
+  0%{
+    bottom: 30px;
+  }
+  50%{
+    bottom: 0px;
+  }
+  100%{
+    bottom: 30px;
+  }
+}
+
+/* Конец экрана приветствия */
 
 h2 {
   margin-left: 30%;
