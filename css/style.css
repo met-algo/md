@@ -149,9 +149,11 @@ h1 {
   text-align: center;
   font-size: 50px;
 }
+
+
 /* Начало экрана приветствия */
 section#intro-header {
-  background-image: url(../img/baloon.jpg);
+  background-image: url(../img/space.png);
   background-size: cover;
   padding-top: 23vh;
   padding-bottom: 33vh;
@@ -209,18 +211,6 @@ section#intro-header .arrow{
   bottom: 30px;
   left: calc(50% - 50px);
   animation: arrowDown 2s infinite;;
-}
-
-@keyframes arrowDown{
-  0%{
-    bottom: 30px;
-  }
-  50%{
-    bottom: 0px;
-  }
-  100%{
-    bottom: 30px;
-  }
 }
 
 /* Конец экрана приветствия */
@@ -357,4 +347,44 @@ td {
 
 details {
   line-height: 2;
+}
+
+/* начальная позиция */ 
+ 
+div.rocket div { 
+    position: absolute; // абсолютное позиционирование для ракеты, чтобы она была как бы "над" фоном
+ 
+    /* устанавливаем эффект перехода между двумя состояниями блока с изображением */
+    -webkit-transition: 2s ease-in; 
+    -moz-transition: 2s ease-in; 
+    -o-transition: 2s ease-in; 
+    transition: 2s ease-in; 
+} 
+ 
+div.rocket div img { 
+    /* устанавливаем эффект перехода между двумя состояниями изображения */
+    -webkit-transition: 1s ease-in-out; 
+    -moz-transition: 1s ease-in-out; 
+    -o-transition: 1s ease-in-out; 
+    transition: 1s ease-in-out; 
+} 
+ 
+/* конечная позиция */ 
+#intro-header:hover div.rocket div { 
+    /* смещаем блок с изображением ракеты на заданные X и Y */
+    -webkit-transform: translate(1080px,-480px); 
+    -moz-transform: translate(1080px,-480px); 
+    -o-transform: translate(1080px,-480px); 
+    -ms-transform: translate(1080px,-480px); 
+    transform: translate(1080px,-480px); 
+} 
+ 
+#intro-header:hover div.rocket div img {
+    /* поворачиваем изображение ракеты на 56 градусов по часовой */
+    -webkit-transform: rotate(56deg); 
+    -moz-transform: rotate(56deg); 
+    -o-transform: rotate(56deg); 
+    -ms-transform: rotate(56deg); 
+    transform: rotate(56deg); 
+ 
 }
