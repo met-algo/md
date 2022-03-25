@@ -44,7 +44,7 @@ html {
   position: relative;
   transform: rotateX(calc(var(--rX) * 1deg)) rotateY(calc(var(--rY) * 1deg));
 
-  background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("http://drive.google.com/uc?export=view&id=1Vyip4NQAv46TbuonQrv3D-Y20Gv9jUus");
+  background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url(../img/algo-logo.png);
   background-position: var(--bX) var(--bY);
   background-size: 40rem auto;
   box-shadow: 0 0 3rem .5rem hsla(0, 0%, 0%, .2);
@@ -352,8 +352,6 @@ details {
  
 div.rocket div { 
     position: absolute;
-    /* // абсолютное позиционирование для ракеты, чтобы она была как бы "над" фоном */
- 
     /* устанавливаем эффект перехода между двумя состояниями блока с изображением */
     -webkit-transition: 2s ease-in; 
     -moz-transition: 2s ease-in; 
