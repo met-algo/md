@@ -133,6 +133,7 @@ a {
 
 /* Начало экрана приветствия */
 section#intro-header {
+  z-index: -1;
   background-image: url(../img/space.png);
   background-size: cover;
   background-attachment: fixed;
@@ -342,7 +343,8 @@ details {
 
 /* начальная позиция */ 
  
-div.rocket div { 
+div.rocket div {
+    z-index: 0;
     position: absolute;
     /* устанавливаем эффект перехода между двумя состояниями блока с изображением */
     -webkit-transition: 2s ease-in; 
@@ -383,7 +385,7 @@ div.rocket div img {
   position: absolute;
   top: 22px;
   height: 54px;
-  left: 100px;
+  left: 80px;
 }
 
 /*Анимация фона*/
@@ -510,4 +512,8 @@ div.rocket div img {
         border-radius: 50%;
     }
 
+}
+
+div.zindex {
+  z-index: 1;
 }
