@@ -330,6 +330,12 @@ body {
   margin-left: 30%;
 }
 
+.img_project {
+  width: 40%;
+  margin: 5px;
+  margin-left: 10%;
+}
+
 details {
   line-height: 2;
 }
