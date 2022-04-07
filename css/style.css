@@ -267,7 +267,7 @@ body {
  bottom: 0;
  display: flex;
  justify-content: center;
- background-color: #6E4D8B ;
+ background-color: #330066 ;
  z-index: 1001;
 }
 
@@ -341,7 +341,7 @@ details {
   line-height: 2;
 }
 
-/* начальная позиция */ 
+/* начальная позиция. Ракета */ 
  
 div.rocket div {
     z-index: 0;
