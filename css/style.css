@@ -37,7 +37,6 @@ html {
   border: 1px solid var(--background-color);
   border-radius: 1.6rem;
   padding: 4rem;
-
   display: flex;
   align-items: flex-end;
   position: relative;
@@ -88,25 +87,25 @@ html {
 }
 
 .container--2 {
-  background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url(../img/algo-logo3.png);
-  background-position: var(--bX) var(--bY);
-  background-size: 40rem auto;
-}
-
-.container--3 {
   background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url(../img/algo-logo4.png);
   background-position: var(--bX) var(--bY);
   background-size: 40rem auto;
 }
 
-.container--4 {
+.container--3 {
   background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url(../img/algo-logo5.png);
   background-position: var(--bX) var(--bY);
   background-size: 40rem auto;
 }
 
-.container--5 {
+.container--4 {
   background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url(../img/algo-logo6.png);
+  background-position: var(--bX) var(--bY);
+  background-size: 40rem auto;
+}
+
+.container--5 {
+  background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url(../img/algo-logo3.png);
   background-position: var(--bX) var(--bY);
   background-size: 40rem auto;
 }
@@ -426,7 +425,6 @@ div.rocket div img {
     -o-transform: rotate(56deg); 
     -ms-transform: rotate(56deg); 
     transform: rotate(56deg); 
- 
 }
 
 .logo {
