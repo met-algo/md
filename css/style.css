@@ -105,7 +105,7 @@ html {
 }
 
 .container--5 {
-  background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url(../img/algo-logo3.png);
+  background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url(../img/algo-logo1.png);
   background-position: var(--bX) var(--bY);
   background-size: 40rem auto;
 }
